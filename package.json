@@ -1,0 +1,32 @@
+{
+  "name": "test--gas-typescript-webpack",
+  "description": "",
+  "version": "0.1.0",
+  "author": "Yuichi Tanikawa <kojole.jp@gmail.com> (https://kojole.jp)",
+  "bugs": {
+    "url": "https://github.com/kojole-sandbox/test--gas-typescript-webpack/issues"
+  },
+  "homepage": "https://github.com/kojole-sandbox/test--gas-typescript-webpack",
+  "keywords": [],
+  "license": "MIT",
+  "main": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kojole-sandbox/test--gas-typescript-webpack.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "deploy": "npm run build && clasp push"
+  },
+  "devDependencies": {
+    "@google/clasp": "^1.5.3",
+    "@types/google-apps-script": "0.0.27",
+    "@types/node": "^10.7.1",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}

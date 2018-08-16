@@ -1,0 +1,9 @@
+# syntax error on `clasp push` (i.e. on save)
+dist/bundle.es3_cjs_production.js
+dist/bundle.es3_es2015_production.js
+dist/bundle.es5_cjs_production.js
+dist/bundle.es5_es2015_production.js
+
+# syntax error on runtime eval (development mode only)
+dist/bundle.es5_cjs_development_ie8.js
+dist/bundle.es5_cjs_development.js
